@@ -95,7 +95,7 @@ Les principales bibliothèques utilisées sont :
 
 Les données ne sont pas incluses dans le dépôt.
 
-Après les avoir téléchargées depuis Kaggle, placer les fichiers suivants dans
+Après les avoir téléchargées depuis Kaggle, placer les trois fichiers dans
 le dossier `data/`.
 
 ## 6. Description des scripts
@@ -180,15 +180,7 @@ prédictions de validation du meilleur LightGBM.
 `V20_select_catboost_lightgbm_weight.py`
 
 Compare plusieurs combinaisons linéaires des probabilités de CatBoost et de
-LightGBM :
-
-\[
-\widehat p_w
-=
-w\widehat p_{\mathrm{CatBoost}}
-+
-(1-w)\widehat p_{\mathrm{LightGBM}}.
-\]
+LightGBM.
 
 Ce script nécessite les prédictions de validation produites par
 `V10_catboost_depth7_max1500_validation.py` et
@@ -227,12 +219,6 @@ Compare six configurations de forêt aléatoire en faisant varier principalement
 - le nombre minimal d'observations dans une feuille.
 
 ## 7. Exécution et dépendances
-
-Les scripts doivent être lancés depuis la racine du dépôt, selon la forme :
-
-```bash
-python scripts/nom_du_script.py
-```
 
 La plupart des scripts sont indépendants.
 

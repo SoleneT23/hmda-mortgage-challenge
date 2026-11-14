@@ -1,0 +1,35 @@
+# Fichiers macOS
+.DS_Store
+
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environnements locaux
+.venv/
+.env
+.env/
+
+# Données Kaggle
+data/*
+!data/README.md
+
+# Fichiers intermédiaires reproductibles
+intermediate/*
+!intermediate/README.md
+
+# Soumissions Kaggle
+submissions/*
+!submissions/README.md
+**/submission*.csv
+
+# Prédictions volumineuses de validation
+**/validation_predictions*.csv
+**/oof_predictions*.csv
+
+# Modèles entraînés et fichiers CatBoost
+**/*.cbm
+**/*.pkl
+**/*.joblib
+**/catboost_info/

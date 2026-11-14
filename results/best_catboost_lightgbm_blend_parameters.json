@@ -1,0 +1,9 @@
+{
+    "catboost_weight": 0.86,
+    "lightgbm_weight": 0.14,
+    "catboost_auc": 0.9118183305741654,
+    "lightgbm_auc": 0.9019862381269977,
+    "blend_auc": 0.9122273650786663,
+    "difference_vs_catboost": 0.00040903450450091583,
+    "weight_step": 0.01
+}

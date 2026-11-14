@@ -1,0 +1,12 @@
+{
+    "configuration": "baseline",
+    "n_estimators": 300,
+    "max_depth": "None",
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "bootstrap": true,
+    "train_auc": 0.9834171745766127,
+    "validation_auc": 0.8966127729109595,
+    "train_validation_gap": 0.08680440166565317,
+    "difference_vs_catboost": -0.01520555766320586
+}

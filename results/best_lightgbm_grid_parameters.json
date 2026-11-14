@@ -1,0 +1,12 @@
+{
+    "configuration": "best_structure_learning_rate_0.02",
+    "learning_rate": 0.02,
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "reg_lambda": 0.0,
+    "colsample_bytree": 1.0,
+    "subsample": 1.0,
+    "subsample_freq": 0,
+    "best_iteration": 177,
+    "validation_auc": 0.9019735874836616
+}

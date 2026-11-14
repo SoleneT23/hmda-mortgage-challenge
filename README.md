@@ -38,14 +38,7 @@ Trois variables ont été construites à partir des variables d'origine :
 - `ltv_missing` : indique si le ratio LTV déclaré est manquant ;
 - `ltv_above_100` : indique si le LTV déclaré est supérieur à 100 % ;
 - `loan_property_ratio` : rapport entre le montant du prêt demandé et la valeur
-  du bien :
-
-\[
-\text{loan\_property\_ratio}
-=
-100 \times
-\frac{\text{loan\_amount}}{\text{property\_value}}.
-\]
+  du bien.
 
 Le LTV, ou *loan-to-value ratio*, mesure le rapport entre le montant garanti par
 le bien et la valeur de celui-ci.
